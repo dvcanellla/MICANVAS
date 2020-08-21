@@ -1,0 +1,45 @@
+/*fuentes lato y poppins*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+/*fin fin fuentes*/
+
+
+.cabecera-cover {
+    background-image: url(../img/micanvas_prueba.jpg);
+    background-size: cover;
+    background-position: center;
+    
+    padding-top: 170px;
+    padding-left: 10px
+}
+
+.cabecera-cover h6 {
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.cabecera-cover h1 {
+    font-family: poppins;
+    font-weight: 700;
+    font-size: 49px;
+}
+
+.cabecera-cover p {
+    font-family: lato;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.cabecera-cover a {
+    font-family: lato;
+    font-weight: 700;
+    font-size: 14px;
+    background: rgba(0,0,0,0);
+    color: #fff;
+}
+
+.cabecera-cover a:hover {
+    background: #fff;
+   
+}
