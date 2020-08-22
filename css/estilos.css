@@ -4,6 +4,16 @@
 /*fin fin fuentes*/
 
 
+body {
+    font-family: lato;
+}
+
+body h1, h2, h3, h4, h5, h6 {
+    font-family: poppins;
+}
+
+/*cabecera*/
+
 .cabecera-cover {
     background-image: url(../img/micanvas_prueba.jpg);
     background-size: cover;
@@ -14,25 +24,23 @@
 }
 
 .cabecera-cover h6 {
-    font-family: poppins;
     font-weight: 400;
     font-size: 14px;
 }
 
 .cabecera-cover h1 {
-    font-family: poppins;
     font-weight: 700;
     font-size: 49px;
 }
 
 .cabecera-cover p {
-    font-family: lato;
     font-weight: 400;
     font-size: 17px;
+    max-width: 600px;
+    
 }
 
 .cabecera-cover a {
-    font-family: lato;
     font-weight: 700;
     font-size: 14px;
     background: rgba(0,0,0,0);
@@ -40,6 +48,28 @@
 }
 
 .cabecera-cover a:hover {
-    background: #fff;
-   
+    background: #fff;   
 }
+
+/*fin fin cabecera*/
+
+
+
+
+
+/*grid*/
+
+.para-grid {       
+    display: flex;
+}
+
+
+.para-grid .icono i {
+    font-size: 32px;
+    width: 50px;
+    text-align: center;    
+}
+
+
+
+/*fin fin grid*/
