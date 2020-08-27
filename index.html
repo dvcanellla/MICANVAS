@@ -13,6 +13,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+<!--    <link rel="stylesheet" href="css/navbar-top-fixed.css">-->
 
     <!-- Custom styles for this template -->
 <!--    <link href="navbar-top-fixed.css" rel="stylesheet">-->
@@ -28,7 +29,10 @@
   
   
   <body>
+  
+<!--  BARRA NAVEGACION-->
    
+<!--
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
       <a class="navbar-brand" href="#">Fixed navbar</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -52,11 +56,75 @@
         </form>
       </div>
     </nav>
+        
+-->
+    <nav class="navbar navbar-expand-xl navbar-light fixed-top bg-light" style= "height: 100px;">
+     
+      <a class="navbar text-dark ml-4" href="#"><h1>canvas</h1></a>     
+      
+      <button class="navbar-toggler mr-4"  type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>      
+      
+<!--      Estos son los enlaces que se ocultan (collapse) al hacer más pequeña la pantalla-->
+     
+      <div class="collapse navbar-collapse " id="navbarCollapse">
+       
+        <ul class="navbar-nav nav-menu px-4 navbar-light bg-light">                 
+          <li class="nav-item">
+            <a class="nav-link" href="#">INICIO <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CARACTERÍSTICAS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">PÁGINAS</a>
+          </li>  
+          <li class="nav-item">
+            <a class="nav-link" href="#">PORTFOLIO</a>
+          </li>    
+          <li class="nav-item">
+            <a class="nav-link" href="#">BLOG</a>
+          </li>    
+          <li class="nav-item">
+            <a class="nav-link" href="#">TIENDA</a>
+          </li>    
+          <li class="nav-item">
+            <a class="nav-link" href="#">ACCESOS</a>
+          </li>            
+        </ul>
+        
+        <div class="container-fluid bg-light justify-content-start justify-content-xl-end pb-0">        
+            <form class="form-inline d-flex flex-nowrap " >
+              <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+              <button class="btn btn-light my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+              
+            </form> 
+         
+        </div>  
+        <div class="container-fluid bg-light justify-content-start justify-content-xl-end py-3 pb-0 w-auto" > 
+            <i class="fas fa-shopping-bag mr-2" style="font-size: 18px" ></i>
+        </div>  
+     
+      </div>
+    
+    </nav>  
+      
+      
+   
+      
+      
+      
+      
+    
+<!--    FIN FIN BARRA NAVEGACION-->
+    
+    
     
     
     <!--CABECERA-->
     
-    <div class="cabecera-cover w-100 vh-100">
+    <div class="cabecera-cover w-100 vh-100 ">
         <div class="container">        
             <h6 class="text-light">¿Hablando de personalización?</h6>
             <h1 class="text-light">30+ PÁGINAS DE INICIO</h1>
@@ -74,7 +142,7 @@
     <!---BIENVENIDA-->
     
     
-    <div class="container bienvenida text-center  text-dark pb-1">
+    <div class="container bienvenida text-center  text-dark ">
        <img class="my-5" src="img/micanvas_logo.jpg" alt="logo">
        <h1 >¡Bienvenidos! Esto es <emp class="text-info">Canvas</emp> .</h1>
        <h2 class="my-5">Un tema multipropósito muy limpio, receptivo y súper flexible que facilita la creación de un sitio web de cualquier categoría.</h2>
@@ -95,7 +163,7 @@
        
         <div class="row">
            
-            <div class="col-md-4 para-grid">
+            <div class="col-md-4 para-grid py-2">
                 <div class="icono">
                     <i class="fas fa-mobile-alt text-info"></i>
                 </div>
@@ -105,7 +173,7 @@
                 </div>             
             </div>
             
-            <div class="col-md-4 para-grid">
+            <div class="col-md-4 para-grid py-2">
                 <div class="icono">
                     <i class="fas fa-eye text-info"></i>
                 </div>
@@ -115,7 +183,7 @@
                 </div>                
             </div>
             
-            <div class="col-md-4 para-grid">
+            <div class="col-md-4 para-grid py-2">
                <div class="icono">
                     <i class="far fa-star text-info"></i>
                 </div>
@@ -125,11 +193,13 @@
                 </div>              
             </div>
             
+<!--
         </div>
         
         <div class="row">    
+-->
                     
-            <div class="col-md-4 para-grid">
+            <div class="col-md-4 para-grid py-3">
                 <div class="icono">
                     <i class="fas fa-video text-info"></i>
                 </div>
@@ -139,7 +209,7 @@
                 </div>                
             </div>
             
-            <div class="col-md-4 para-grid">
+            <div class="col-md-4 para-grid py-3">
                 <div class="icono">
                     <i class="fas fa-sliders-h text-info"></i>
                 </div>
@@ -149,7 +219,7 @@
                 </div>             
             </div>
             
-            <div class="col-md-4 para-grid">
+            <div class="col-md-4 para-grid py-3">
                 <div class="icono">
                     <i class="fas fa-fire text-info"></i>
                 </div>
@@ -159,11 +229,13 @@
                 </div>            
             </div>
             
+<!--
         </div>
         
         <div class="row">
+-->
             
-            <div class="col-md-4 para-grid">
+            <div class="col-md-4 para-grid py-3">
                 <div class="icono">
                     <i class="far fa-lightbulb text-info"></i>
                 </div>
@@ -173,7 +245,7 @@
                 </div>               
             </div>
             
-            <div class="col-md-4 para-grid">
+            <div class="col-md-4 para-grid py-3">
                 <div class="icono">
                     <i class="far fa-heart text-info"></i>
                 </div>
@@ -183,7 +255,7 @@
                 </div>               
             </div>
             
-            <div class="col-md-4 para-grid">
+            <div class="col-md-4 para-grid py-3">
                 <div class="icono">
                     <i class="far fa-sticky-note text-info"></i>
                 </div>
@@ -195,27 +267,53 @@
                        
         </div>
         
-    </div> 
-    
-    
+    </div>     
     
     
     
     <!-- FIN FIN GRID-->
     
     
+<!--    GRID OBRAS-->
+  
+  <div class="container-fluid mt-5 pt-5 pb-4 text-center bg-light ">
+      <h2 class="text-dark font-weight-bold py-2">NUESTRAS IMPRESIONANTES OBRAS</h2>
+      <p class="text-black-50  pb-3" style="font-size: 20px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, earum!</p>
+      <hr style="width: 50px; border-color: dimgray; border-width: 2px;">
+      <div class="row">
+      
+          <div class="col">
+              <img src="" alt="">
+              
+          </div>
+  
+      </div>
+      
+</div>
+   
+   
+<!--   FIN FIN GRID OBRAS-->
+    
+    
+    
+<!--
+    <script>
+      $(window).scroll(function() {
+        if ($("#menu").offset().top > ) {
+            $("#menu").addClass("bg-inverse");
+        } else {
+            $("#menu").removeClass("bg-inverse");
+        }
+      });
+    </script>
+-->
     
     
     
     
     
     
-    
-    
-    
-    
-    
-    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 
     
 
